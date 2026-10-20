@@ -1,5 +1,6 @@
 import csv
 
+
 def load_sales(filename):
     """Load car sales from a CSV file and return a list of dictionaries."""
     sales = []
@@ -21,13 +22,14 @@ def load_sales(filename):
         sales.append(sale)
     return sales
 
+
 def total_sales(sales):
     """Calculate the total sales amount from a list of sales."""
     return len(sales)
 
 
 def total_revenue(sales):
-    """Calculate the total revenue from a list of sales."""
+    """Return the sum of all the prices."""
     revenue = 0
 
     for sale in sales:
@@ -49,7 +51,7 @@ def sales_by_salesperson(sales):
     return count
 
 
-def most_solid_make(sales):
+def most_sold_make(sales):
     """Return the make of the car with the highest number of sales."""
     make_count = {}
 
@@ -59,13 +61,29 @@ def most_solid_make(sales):
             make_count[make] = 0
         make_count[make] += 1
 
-    most_solid = max(make_count, key=make_count.get)
-    return most_solid
+    most_sold = max(make_count, key=make_count.get)
+    return most_sold
 
+def least_sold_model(sales):
+    """Return the model of a car with the lowest number of sales."""
+    count = {}
+
+    for sale in sales:
+        model = sale["model"]
+        if model not in count:
+            count[model] = 0
+        count[model] += 1
+    least_sold = min(count, key=count.get)
+    return least_sold
+
+def menu(sales):
+    """Display an option menu for the user to choose from."""
+    
 
 sales = load_sales("car_sales.csv")
 
 print("Total sales:", total_sales(sales))
 print("Total revenue:", total_revenue(sales))
 print("Sales by salesperson:", sales_by_salesperson(sales))
-print("Most sold make:", most_solid_make(sales))
+print("Most sold make:", most_sold_make(sales))
+print("Least sold model:", least_sold_model(sales))
