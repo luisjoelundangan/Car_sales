@@ -1,0 +1,6 @@
+===== Car Sales Report =====
+Total Sales: 9001
+Total Revenue: $245,109,350.00
+Sales by Salesperson: {'Eve': 656, 'Chloe': 630, 'Aroha': 351, 'Mere': 859, 'Ioane': 848, 'Kiri': 655, 'Olivia': 648, 'Jess': 643, 'Liam': 770, 'Finn': 601, 'Dan': 667, 'Nikau': 500, 'Ben': 444, 'Hana': 729}
+Most Sold Make: Toyota
+Least Sold Model: Forester
