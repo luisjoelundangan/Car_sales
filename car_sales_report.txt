@@ -1,0 +1,42 @@
+===== Car Sales Report =====
+
+Total Sales: 9001
+Total Revenue: $245,109,350.00
+Most Sold Make: Toyota
+Least Sold Model: Forester
+
+==== Sales by Salesperson ====
+Eve: 656 sales
+Chloe: 630 sales
+Aroha: 351 sales
+Mere: 859 sales
+Ioane: 848 sales
+Kiri: 655 sales
+Olivia: 648 sales
+Jess: 643 sales
+Liam: 770 sales
+Finn: 601 sales
+Dan: 667 sales
+Nikau: 500 sales
+Ben: 444 sales
+Hana: 729 sales
+
+==== Average Sale by Salesperson ====
+Eve: $27,048.17
+Chloe: $27,888.81
+Aroha: $26,577.49
+Mere: $27,059.72
+Ioane: $27,145.75
+Kiri: $26,436.49
+Olivia: $27,797.30
+Jess: $26,838.34
+Liam: $27,641.88
+Finn: $27,084.36
+Dan: $26,967.47
+Nikau: $27,556.60
+Ben: $27,471.51
+Hana: $27,562.00
+
+==== Extension Analytics ====
+Top salesperson by Average: Chloe
+Best Sales Month: 2026-12
