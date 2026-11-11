@@ -6,6 +6,7 @@ Most Sold Make: Toyota
 Least Sold Model: Forester
 
 ==== Sales by Salesperson ====
+
 Eve: 656 sales
 Chloe: 630 sales
 Aroha: 351 sales
@@ -22,6 +23,7 @@ Ben: 444 sales
 Hana: 729 sales
 
 ==== Average Sale by Salesperson ====
+
 Eve: $27,048.17
 Chloe: $27,888.81
 Aroha: $26,577.49
@@ -38,5 +40,6 @@ Ben: $27,471.51
 Hana: $27,562.00
 
 ==== Extension Analytics ====
+
 Top salesperson by Average: Chloe
 Best Sales Month: 2026-12

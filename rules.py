@@ -37,6 +37,9 @@ def most_sold_make(sales):
             make_count[make] = 0
         make_count[make] += 1
 
+    if not make_count:
+        return None
+    
     most_sold = max(make_count, key=make_count.get)
 
     return most_sold
@@ -51,6 +54,10 @@ def least_sold_model(sales):
         if model not in count:
             count[model] = 0
         count[model] += 1
+
+    if not count:
+        return None
+    
     least_sold = min(count, key=count.get)
 
     return least_sold
